@@ -1,0 +1,73 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+
+# Blender specific
+*.blend[0-9]*       # 忽略Blender备份文件，如filename.blend1, filename.blend2等
+*.blend[0-9].*
+*.blend@
+*.blend@.blend@
+
+# python 相关
+*.pyc               # 忽略编译的Python文件
+__pycache__/        # 忽略Python缓存目录
+
+
+*.bak               # 忽略备份文件
+*.tmp               # 忽略临时文件
+
+*.blend1            # 额外的Blender备份文件格式
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend6
+*.blend7
+*.blend8
+*.blend9
+
+# Simulation caches
+*.bphys             # 忽略Blender物理模拟缓存文件
+*.vdb               # 忽略VDB缓存文件
+
+# Thumbnails
+blender_thumbnail.png   # 忽略Blender生成的缩略图
+
+# Backup files
+*.blend@            # 忽略备份文件
+*.blend1
+*.blend2
+
+# Temporary files
+*.tmp               # 忽略临时文件
+*.log               # 忽略日志文件
+*.bak               # 忽略备份文件
+*.swp               # 忽略交换文件
+*.swp~
+
+# Python specific
+__pycache__/        # 忽略Python缓存目录
+*.py[cod]           # 忽略编译的Python文件
+*$py.class          # 忽略Jython编译文件
+
+# Virtual environments
+venv/               # 忽略虚拟环境目录
+.env
+.envrc
+
+# Jupyter Notebooks
+.ipynb_checkpoints  # 忽略Jupyter Notebook检查点文件
+
+# IDE specific
+.vscode/            # 忽略VSCode配置目录
+.idea/              # 忽略IDEA配置目录
+*.sublime-project   # 忽略Sublime项目文件
+*.sublime-workspace # 忽略Sublime工作空间文件
+
+# macOS specific
+.DS_Store           # 忽略macOS系统生成的.DS_Store文件
+
+# Windows specific
+Thumbs.db           # 忽略Windows系统生成的缩略图缓存文件
